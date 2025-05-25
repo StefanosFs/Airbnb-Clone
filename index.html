@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Find your next stay with Staybnb - Book unique homes and experiences around the world">
+    <title>Staybnb - Find Your Next Stay</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/7115685f4c.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="header">
+        <nav id="navBar">
+            <a href="/" class="logo-link">
+                <img src="images/logo.png" class="logo" alt="Staybnb Logo">
+            </a>
+            <button class="mobile-menu-btn" aria-label="Toggle menu">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+            <ul class="nav-links">
+                <li><a href="#" class="active" aria-current="page">Popular Places</a></li>
+                <li><a href="house.html">Travel Outside</a></li>
+                <li><a href="listing.html">Online Packages</a></li>
+            </ul>
+            <button class="theme-toggle" aria-label="Toggle dark mode">
+                <i class="fa-solid fa-moon"></i>
+                <i class="fa-solid fa-sun"></i>
+            </button>
+            <a href="#" class="register-btn" role="button">Register Now</a>
+        </nav>
+        <div class="container">
+            <h1>Find Your Next Stay</h1>
+            <div class="search-bar">
+                <form role="search" aria-label="Search accommodations">
+                    <div class="location-input">
+                        <label for="location">Location</label>
+                        <input type="text" id="location" placeholder="Where are you going?" aria-label="Enter location">
+                    </div>
+                    <div>
+                        <label for="checkin">Check in</label>
+                        <input type="date" id="checkin" aria-label="Select check-in date">
+                    </div>
+                    <div>
+                        <label for="checkout">Check out</label>
+                        <input type="date" id="checkout" aria-label="Select check-out date">
+                    </div>
+                    <div>
+                        <label for="guests">Guests</label>
+                        <select id="guests" aria-label="Select number of guests">
+                            <option value="">Add Guests</option>
+                            <option value="1">1 Guest</option>
+                            <option value="2">2 Guests</option>
+                            <option value="3">3 Guests</option>
+                            <option value="4">4 Guests</option>
+                            <option value="5+">5+ Guests</option>
+                        </select>
+                    </div>
+                    <button type="submit" aria-label="Search">
+                        <i class="fa-solid fa-search"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <main class="container">
+        <section aria-labelledby="exclusives-title">
+            <h2 id="exclusives-title" class="sub-title">Exclusives</h2>
+            <div class="exclusives">
+                <div>
+                    <img src="images/image-1.png">
+                    <span>
+                        <h3>New York</h3>
+                        <p>Starts @ $250</p>
+                    </span>
+                </div>
+                <div>
+                    <img src="images/image-2.png">
+                    <span>
+                        <h3>Switzerland</h3>
+                        <p>Starts @ $250</p>
+                    </span>
+                </div>
+                <div>
+                    <img src="images/image-3.png">
+                    <span>
+                        <h3>Australia</h3>
+                        <p>Starts @ $250</p>
+                    </span>
+                </div>
+                <div>
+                    <img src="images/image-4.png">
+                    <span>
+                        <h3>London</h3>
+                        <p>Starts @ $250</p>
+                    </span>
+                </div>
+                <div>
+                    <img src="images/image-5.png">
+                    <span>
+                        <h3>France</h3>
+                        <p>Starts @ $250</p>
+                    </span>
+                </div>
+                <div>
+                    <img src="images/image-1.png">
+                    <span>
+                        <h3>Netherlands</h3>
+                        <p>Starts @ $250</p>
+                    </span>
+                </div>
+                <div>
+                    <img src="images/image-2.png">
+                    <span>
+                        <h3>Shangai</h3>
+                        <p>Starts @ $250</p>
+                    </span>
+                </div>
+                <div>
+                    <img src="images/image-3.png">
+                    <span>
+                        <h3>Chicago</h3>
+                        <p>Starts @ $250</p>
+                    </span>
+                </div>
+                <div>
+                    <img src="images/image-4.png">
+                    <span>
+                        <h3>Amsterdam</h3>
+                        <p>Starts @ $250</p>
+                    </span>
+                </div>
+                <div>
+                    <img src="images/image-5.png">
+                    <span>
+                        <h3>San Francisco</h3>
+                        <p>Starts @ $250</p>
+                    </span>
+                </div>
+            </div>
+        </section>
+        
+        <section aria-labelledby="trending-title">
+            <h2 id="trending-title" class="sub-title">Trending Places</h2>
+            <div class="trending">
+                <div>
+                    <img src="images/dubai.png">
+                    <h3>Dubai</h3>
+                </div>
+                <div>
+                    <img src="images/new-york.png">
+                    <h3>New York</h3>
+                </div>
+                <div>
+                    <img src="images/paris.png">
+                    <h3>Paris</h3>
+                </div>
+                <div>
+                    <img src="images/new-delhi.png">
+                    <h3>New Delhi</h3>
+                </div>
+            </div>
+        </section>
+
+        <section class="cta" aria-labelledby="cta-title">
+            <h3 id="cta-title">Sharing Is Earning Now</h3>
+            <p>Great opportunity to make money by sharing your extra space</p>
+            <a href="#" class="cta-btn" role="button">Know More</a>
+        </section>
+
+        <section aria-labelledby="stories-title">
+            <h2 id="stories-title" class="sub-title">Travelers Stories</h2>
+            <div class="stories">
+                <div>
+                    <img src="images/story-1.png">
+                    <p>Popular European countries with a budget of just $10,000</p>
+                </div>
+                <div>
+                    <img src="images/story-2.png">
+                    <p>Traveld more than a 100 contries in less than a year</p>
+                </div>
+                <div>
+                    <img src="images/story-3.png">
+                    <p>Best experience you get while traveling to Thailand</p>
+                </div>
+            </div>
+        </section>
+
+        <a href="#" class="start-btn" role="button">Start making money</a>
+
+        <section class="about-msg" aria-labelledby="about-title">
+            <h2 id="about-title">About Staybnb</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+            Et in vel beatae! Odio ut, ipsum repellendus laboriosam maiores, 
+            dicta libero incidunt laudantium voluptatem, expedita quo. 
+            Et pariatur tempore quaerat molestiae.</p>
+        </section>
+
+        <footer class="footer">
+            <div class="social-links">
+                <a href="https://facebook.com/" aria-label="Visit our Facebook page"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://youtube.com/" aria-label="Visit our YouTube channel"><i class="fab fa-youtube"></i></a>
+                <a href="https://twitter.com/" aria-label="Follow us on Twitter"><i class="fab fa-twitter"></i></a>
+                <a href="https://linkedin.com/" aria-label="Connect with us on LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://instagram.com/" aria-label="Follow us on Instagram"><i class="fab fa-instagram"></i></a>
+            </div>
+            <hr>
+            <p>Copyright <i class="fa-solid fa-copyright" aria-hidden="true"></i> 2024, Staybnb</p>
+        </footer>
+    </main>
+
+    <script>
+        // Modern JavaScript for navigation and theme
+        document.addEventListener('DOMContentLoaded', () => {
+            const navBar = document.getElementById('navBar');
+            const mobileMenuBtn = document.querySelector('.mobile-menu-btn');
+            const navLinks = document.querySelector('.nav-links');
+            const themeToggle = document.querySelector('.theme-toggle');
+            
+            // Theme handling
+            const setTheme = (isDark) => {
+                document.documentElement.classList.toggle('dark-theme', isDark);
+                localStorage.setItem('theme', isDark ? 'dark' : 'light');
+                themeToggle.setAttribute('aria-label', isDark ? 'Switch to light mode' : 'Switch to dark mode');
+            };
+
+            // Initialize theme
+            const savedTheme = localStorage.getItem('theme');
+            const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+            setTheme(savedTheme === 'dark' || (!savedTheme && prefersDark));
+
+            // Theme toggle click handler
+            themeToggle.addEventListener('click', () => {
+                const isDark = document.documentElement.classList.contains('dark-theme');
+                setTheme(!isDark);
+            });
+
+            // Listen for system theme changes
+            window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', (e) => {
+                if (!localStorage.getItem('theme')) {
+                    setTheme(e.matches);
+                }
+            });
+            
+            // Toggle mobile menu
+            mobileMenuBtn.addEventListener('click', () => {
+                navLinks.classList.toggle('active');
+                mobileMenuBtn.setAttribute('aria-expanded', 
+                    mobileMenuBtn.getAttribute('aria-expanded') === 'true' ? 'false' : 'true'
+                );
+            });
+
+            // Handle scroll for navbar
+            let lastScroll = 0;
+            window.addEventListener('scroll', () => {
+                const currentScroll = window.pageYOffset;
+                
+                if (currentScroll > 100) {
+                    navBar.classList.add('scrolled');
+                } else {
+                    navBar.classList.remove('scrolled');
+                }
+                
+                lastScroll = currentScroll;
+            });
+
+            // Close mobile menu when clicking outside
+            document.addEventListener('click', (e) => {
+                if (!navBar.contains(e.target) && navLinks.classList.contains('active')) {
+                    navLinks.classList.remove('active');
+                    mobileMenuBtn.setAttribute('aria-expanded', 'false');
+                }
+            });
+        });
+
+        // Image loading optimization
+        document.addEventListener('DOMContentLoaded', () => {
+            const images = document.querySelectorAll('.exclusives img, .trending img, .stories img');
+            
+            // Add loading="lazy" to all images
+            images.forEach(img => {
+                img.loading = 'lazy';
+                img.classList.add('image-loading');
+                
+                // Handle image load
+                if (img.complete) {
+                    img.classList.add('loaded');
+                } else {
+                    img.addEventListener('load', () => {
+                        img.classList.add('loaded');
+                    });
+                    
+                    // Handle image error
+                    img.addEventListener('error', () => {
+                        img.src = 'images/placeholder.jpg'; // Fallback image
+                        img.classList.add('loaded');
+                    });
+                }
+            });
+
+            // Intersection Observer for lazy loading
+            const imageObserver = new IntersectionObserver((entries, observer) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        const img = entry.target;
+                        if (img.dataset.src) {
+                            img.src = img.dataset.src;
+                            img.removeAttribute('data-src');
+                        }
+                        observer.unobserve(img);
+                    }
+                });
+            }, {
+                rootMargin: '50px 0px',
+                threshold: 0.01
+            });
+
+            // Observe all images
+            images.forEach(img => {
+                if (img.dataset.src) {
+                    imageObserver.observe(img);
+                }
+            });
+        });
+    </script>
+</body>
+</html>
